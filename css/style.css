@@ -41,11 +41,15 @@ nav {
     padding: 0;
     display: flex;
     background-color: #393939;
-    width: 98.5vw;
+    width: 100%;
     height: 80px;
     justify-content: space-around;
 }
 
+nav > p {
+    position: relative;
+    left: -1vw;
+}
 
 .header-link {
     line-height: 70px;
