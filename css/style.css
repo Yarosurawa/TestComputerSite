@@ -1,27 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Roboto+Mono:ital,wght@1,700&display=swap');
+* {
+    transition: translate 1s ease-in-out;
+}
+
 body {
+    overflow: hidden;
     margin: 0;
+    background: #000000;
 }
 
 .header-kapatacha {
     font-family: 'Neonderthaw', cursive;
-    font-size: 60px;
+    font-size: 15vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: calc(50% - 7.5vw);
     margin: 0px;
     color: white;
-    line-height: 50px;
+    line-height: 0px;
+    padding: 0;
+    left: -1px;
 }
 
-header {
-    background: rgb(41, 41, 41);
+#header {
+    display: block;
+    padding: 0px;
+    position: relative;
+    top: 3vh;
+    background: #292929;
     margin: 0;
-    height: 60px;
+    height: 90vh;
     padding: 10px;
     display: flex;
     color: white;
 }
 
 nav {
+    margin: 0;
+    padding: 0;
     display: flex;
+    background-color: #393939;
+    width: 98.5vw;
+    height: 80px;
+    justify-content: space-around;
 }
+
 
 .header-link {
     line-height: 70px;
@@ -29,4 +53,25 @@ nav {
     margin-left: 30px;
     font-size: 30px;
     font-style: italic;
+}
+
+.second-shmit {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 6vw;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: calc(60% - 5vh);
+    margin: 0px;
+    color: white;
+    line-height: 10vh;
+    padding: 0;
+    left: -1px;
+    font-weight: normal;
+}
+
+a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: #67dbb4;
 }
